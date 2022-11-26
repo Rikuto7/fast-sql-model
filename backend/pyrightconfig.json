@@ -1,0 +1,21 @@
+{
+  "pythonVersion": "3.9",
+  "include": [
+    "api",
+    "db"
+  ],
+  "exclude": [
+    "**/.ipynb_checpoints",
+    "**/__pycache__",
+    "typings",
+    "venv",
+    ".venv"
+  ],
+  "ignore": [
+    "db/migrations/versions"
+  ],
+  "reportUnusedImport": "information",
+  "reportMissingImports": "information",
+  "reportUnknownMemberType": "information",
+  "reportOptionalCall": "information"
+}
